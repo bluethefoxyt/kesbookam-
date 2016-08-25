@@ -37,7 +37,7 @@ namespace kbam_
             }
             else if (wc.DownloadString("http://kesbook.cf/users/" + Properties.Settings.Default.username + "/ver.txt") == "false")
             {
-                label3.Text = "not verified";
+                label3.Text = "Not verified";
             }
 
             
@@ -249,7 +249,7 @@ namespace kbam_
             }
             catch
             {
-                MessageBox.Show("where am i----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------error code:00X00X664");
+                MessageBox.Show("ERROR ! Error code:00X00X664");
             }
 
         }
@@ -454,7 +454,7 @@ namespace kbam_
 
         private void button18_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("no games because wip");
+            MessageBox.Show("No games. It's in wip");
         }
 
         private void iconButton19_Click_1(object sender, EventArgs e)
@@ -484,7 +484,7 @@ namespace kbam_
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("made by kessanrobertson of kesbook uk 2016");
+            MessageBox.Show("Made by kessan robertson of Kesbook UK (C) 2016");
         }
 
         private void iconButton20_Click_2(object sender, EventArgs e)
