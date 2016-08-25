@@ -216,19 +216,24 @@ namespace kbam_
                 chattimer.Start();
                 webBrowser4.Navigate("http://kesbook.cf/chat.php?chat=" + textBox2.Text + "&text=" + Properties.Settings.Default.username + "(HOST OF THIS CHATROOM) has joined the chat network");
                 webBrowser.Navigate("http://kesbook.cf/cg/" + textBox2.Text + "/index.html");
+                int awebBrowserb = 0;
+                while (awebBrowserb < 4)
+                {
                 webBrowser.Refresh();
-                webBrowser.Refresh();
-                webBrowser.Refresh();
-                webBrowser.Refresh();
+                awebBrowserb++;
+                }
+
             }else
             {
                 chattimer.Start();
                 webBrowser4.Navigate("http://kesbook.cf/chat.php?user=" + textBox2.Text + "&text=" + Properties.Settings.Default.username + " has joined the chat network make him/her feel welcome :)");
                 webBrowser.Navigate("http://kesbook.cf/cg/" + textBox2.Text + "/index.html");
+                int awebBrowserc = 0;
+                while (awebBrowserc < 4)
+                {
                 webBrowser.Refresh();
-                webBrowser.Refresh();
-                webBrowser.Refresh();
-                webBrowser.Refresh();
+                awebBrowserc++;
+                }
             }
         }
 
