@@ -29,7 +29,7 @@ namespace kbam_
 
             var wc = new System.Net.WebClient();
             string st1 = textBox2.Text;
-            string st3 = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(base64_encode(base64_encode(base64_encode(base64_encode(st1))))))))))))))));
+            string st3 = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(base64_encode(base64_encode(base64_encode(base64_encode(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(st1)))))))))))))))))))))))))))))))))))))))))))
             passbox.Text = st3;
             Properties.Settings.Default.username = textBox1.Text;
             Properties.Settings.Default.username = textBox1.Text;
